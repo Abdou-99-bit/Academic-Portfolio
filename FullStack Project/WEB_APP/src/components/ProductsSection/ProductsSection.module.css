@@ -1,0 +1,157 @@
+.products {
+  padding: 100px 100px;
+  background-color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #222;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  flex: 1;
+}
+
+.shopButton {
+  background: none;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #222;
+  cursor: pointer;
+  position: relative;
+}
+
+.shopButton::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background-color: #6ec1e4;
+  transition: 0.3s ease;
+}
+
+.shopButton:hover::after {
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.arrow {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: #6ec1e4;
+  color: white;
+}
+
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.dots span {
+  width: 8px;
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.dots .active {
+  background-color: #6ec1e4;
+}
+
+
+
+
+/* HOVER EFFECT */
+.card:hover .addBtn {
+  bottom: 20px; /* slides up */
+}
+
+
+/* SLIDER */
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* ARROWS */
+.arrow {
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  background: #6ec1e4;
+  color: white;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+/* wrap image */
+.imageWrapper {
+  position: relative;
+}
+
+/* image */
+.imageWrapper img {
+  width: 100%;
+  display: block;
+}
+
+/* button hidden by default */
+.addBtn {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* show on hover */
+.card:hover .addBtn {
+  bottom: 20px;
+}

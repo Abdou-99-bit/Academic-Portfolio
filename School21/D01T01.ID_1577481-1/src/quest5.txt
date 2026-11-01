@@ -1,0 +1,4 @@
+1. cd door_management_files/door_configuration
+2. nano door1.conf
+3. Edited STATUS line from CLOSED to OPEN
+4. Saved changes with Ctrl+O and exited with Ctrl+X

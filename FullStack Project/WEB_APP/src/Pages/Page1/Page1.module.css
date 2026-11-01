@@ -1,0 +1,282 @@
+.topSection {
+  background: #eef1f3;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.topSection h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.topSection p {
+  color: #888;
+}
+
+.topSection span {
+  color: #6aa9d6;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+/* LEFT */
+.left {
+  flex: 3;
+}
+
+.results {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.card {
+  text-align: center;
+}
+
+.image {
+  height: 220px;
+  background: #eee;
+  position: relative;
+}
+
+/* HOVER BUTTON */
+.image button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  color: white;
+  padding: 8px 15px;
+  opacity: 0;
+  transition: 0.3s;
+  border: none;
+}
+
+.image:hover button {
+  opacity: 1;
+}
+
+/* TEXT */
+.card p {
+  margin-top: 10px;
+}
+
+.card span {
+  color: #6aa9d6;
+}
+
+/* PAGINATION */
+.pagination {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.active {
+  color: #6aa9d6;
+}
+
+/* SIDEBAR */
+.sidebar {
+  flex: 1;
+}
+
+.sidebar input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.sidebar h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #555;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+  margin: 60px 40px;
+  background: #1e1e1e;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe input {
+  padding: 10px;
+}
+
+.subscribe button {
+  background: #6aa9d6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image {
+  position: relative;
+  overflow: hidden;
+}
+
+/* .searchBox {
+  position: relative;
+}
+
+.searchBox input {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+} */
+
+.searchBox {
+  display: flex;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.searchBox input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.iconBox {
+  background: black; /* blue like design */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.instaSection {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.instaSection h3 {
+  margin-bottom: 30px;
+}
+
+.instaGrid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.instaGrid img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.main{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1fr;
+  gap:60px;
+  width:80%;
+  margin:auto;
+}
+
+.col h2{
+  font-size:22px;
+}
+
+.col h4{
+  margin-bottom:15px;
+  font-size:14px;
+  letter-spacing:1px;
+}
+
+.col p{
+  font-size:14px;
+  color:#777;
+  margin-bottom:10px;
+}
+
+.col ul{
+  list-style:none;
+  padding:0;
+}
+
+.col li{
+  font-size:14px;
+  margin-bottom:8px;
+  color:#555;
+  cursor:pointer;
+}
+
+.bottom{
+  border-top:1px solid #eee;
+  margin-top:60px;
+  padding:20px 10%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:13px;
+  color:#777;
+}
+
+.leftBottom{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo{
+  background:#eee;
+  padding:4px 8px;
+  font-size:12px;
+}
+
+.space{
+  margin-left:20px;
+}
+
+.rightBottom{
+  text-align:right;
+}

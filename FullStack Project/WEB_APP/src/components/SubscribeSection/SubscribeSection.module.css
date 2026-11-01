@@ -1,0 +1,42 @@
+.subscribe{
+  margin:120px auto;
+  width:75%;
+  background:linear-gradient(90deg,#2a2a2a,#1c1c1c);
+  padding:50px 70px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.left h2{
+  color:white;
+  font-size:22px;
+  letter-spacing:2px;
+}
+
+.left p{
+  color:#bbb;
+  font-size:14px;
+  margin-top:10px;
+}
+
+.right{
+  display:flex;
+}
+
+.right input{
+  padding:14px 20px;
+  border:none;
+  width:280px;
+}
+
+.right button{
+  background:#7fb3c7;
+  color:white;
+  border:none;
+  padding:14px 28px;
+  cursor:pointer;
+  font-size:12px;
+  letter-spacing:1px;
+}

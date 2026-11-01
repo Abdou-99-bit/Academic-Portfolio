@@ -1,0 +1,26 @@
+.blog{
+  padding:100px;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:40px;
+}
+
+.header h2{
+  font-size:28px;
+}
+
+.header a{
+  font-size:14px;
+  text-decoration:none;
+  color:#000;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:30px;
+}

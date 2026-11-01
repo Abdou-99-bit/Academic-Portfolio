@@ -1,0 +1,10 @@
+.features {
+  padding: 80px 100px;
+  background-color: #ffffff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}

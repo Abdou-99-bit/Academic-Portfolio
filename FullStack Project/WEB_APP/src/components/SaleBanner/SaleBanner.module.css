@@ -1,0 +1,35 @@
+.banner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:120px 100px;
+  background:#eef0f1;
+}
+
+.left{
+  max-width:500px;
+}
+
+.discount{
+  font-size:14px;
+  letter-spacing:3px;
+  color:#666;
+}
+
+.left h2{
+  font-size:52px;
+  margin:20px 0;
+  font-weight:300;
+}
+
+.button{
+  background:#1e1e1e;
+  color:white;
+  border:none;
+  padding:14px 30px;
+  cursor:pointer;
+}
+
+.right img{
+  width:420px;
+}

@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 80px;
+  background-color: #f1f3f4;
+}
+
+.left {
+  flex: 1;
+}
+
+.left h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 14px 28px;
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #6ec1e4;
+}
+
+.right {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  width: 400px;
+}
+
+.Vector {
+  position: absolute;
+  width: 47px;   
+  right: 20px;    
+  top: 370px; 
+}

@@ -1,0 +1,73 @@
+.watches {
+  padding: 100px 100px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #222;
+}
+
+.shopButton {
+  background: none;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #222;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  flex: 1;
+}
+
+.arrow {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: #6ec1e4;
+  color: white;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.dots span {
+  width: 8px;
+  height: 8px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.dots .active {
+  background-color: #6ec1e4;
+}
