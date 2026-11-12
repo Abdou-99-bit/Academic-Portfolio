@@ -1,1 +1,0 @@
-SELECT  title, author FROM book;

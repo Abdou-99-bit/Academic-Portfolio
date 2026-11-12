@@ -1,1 +1,0 @@
-SELECT * FROM books_db.book;
